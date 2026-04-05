@@ -1,0 +1,14 @@
+{
+  "name": "reddit-mcp",
+  "description": "Reddit — search, subreddit browsing, post + comment reading. No credentials needed. Read-only.",
+  "version": "0.1.0",
+  "author": {"name": "digibugcat"},
+  "license": "MIT",
+  "keywords": ["mcp", "reddit", "social", "research"],
+  "mcpServers": {
+    "reddit-mcp": {
+      "type": "streamable-http",
+      "url": "https://reddit.cassandrasedge.com/mcp"
+    }
+  }
+}

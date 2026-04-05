@@ -1,0 +1,14 @@
+{
+  "name": "twitter-mcp",
+  "description": "Twitter/X — news search, Grok AI synthesis, post analytics, personal timeline, bookmarks. Read-only.",
+  "version": "0.1.0",
+  "author": {"name": "digibugcat"},
+  "license": "MIT",
+  "keywords": ["mcp", "twitter", "x", "news", "social"],
+  "mcpServers": {
+    "twitter-mcp": {
+      "type": "streamable-http",
+      "url": "https://twitter.cassandrasedge.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "market-research",
+  "description": "Financial market data — stocks, SEC filings, macro, options, earnings. Discovery + Code Mode execution via FMP, Polygon, FRED APIs.",
+  "version": "0.1.0",
+  "author": {"name": "digibugcat"},
+  "license": "MIT",
+  "keywords": ["mcp", "finance", "stocks", "market-data"],
+  "mcpServers": {
+    "market-research": {
+      "type": "streamable-http",
+      "url": "https://market-research.cassandrasedge.com/mcp"
+    }
+  }
+}

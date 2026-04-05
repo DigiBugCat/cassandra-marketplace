@@ -5,32 +5,80 @@
   },
   "metadata": {
     "description": "Plugins from the Cassandra platform",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   "plugins": [
     {
       "name": "stopgate",
       "source": "./plugins/stopgate",
-      "description": "Stop hook that blocks lazy stops and returns actionable directives. Uses an Opus LLM call to classify whether the assistant actually finished its task.",
+      "description": "Stop hook that blocks lazy stops and returns actionable directives.",
       "version": "0.2.0",
       "category": "productivity",
-      "keywords": ["hooks", "stop-gate", "agentic", "productivity"]
-    },
-    {
-      "name": "gateway-mcp",
-      "source": "./plugins/gateway-mcp",
-      "description": "Configures the Cassandra Gateway MCP (execute) and per-service discovery servers. Adds streamable-http MCP server configs to .mcp.json.",
-      "version": "0.1.0",
-      "category": "mcp",
-      "keywords": ["mcp", "gateway", "execute", "config"]
+      "keywords": ["hooks", "stop-gate", "agentic"]
     },
     {
       "name": "acl-lint",
       "source": "./plugins/acl-lint",
-      "description": "Pre-tool hook that validates acl.yaml structure — catches bad service names, missing groups, invalid policy syntax before they hit production.",
+      "description": "Pre-tool hook that validates acl.yaml structure on write/edit.",
       "version": "0.1.0",
       "category": "security",
-      "keywords": ["hooks", "acl", "validation", "security"]
+      "keywords": ["hooks", "acl", "validation"]
+    },
+    {
+      "name": "gateway-mcp",
+      "source": "./plugins/gateway-mcp",
+      "description": "Cassandra Gateway — execute any platform tool via sandboxed Python.",
+      "version": "0.1.0",
+      "category": "mcp",
+      "keywords": ["mcp", "gateway", "execute"]
+    },
+    {
+      "name": "market-research",
+      "source": "./plugins/market-research",
+      "description": "Financial market data — stocks, SEC filings, macro, options, earnings.",
+      "version": "0.1.0",
+      "category": "mcp",
+      "keywords": ["mcp", "finance", "stocks"]
+    },
+    {
+      "name": "twitter-mcp",
+      "source": "./plugins/twitter-mcp",
+      "description": "Twitter/X — news search, Grok AI, post analytics, personal timeline.",
+      "version": "0.1.0",
+      "category": "mcp",
+      "keywords": ["mcp", "twitter", "news"]
+    },
+    {
+      "name": "reddit-mcp",
+      "source": "./plugins/reddit-mcp",
+      "description": "Reddit — search, subreddit browsing, post + comment reading.",
+      "version": "0.1.0",
+      "category": "mcp",
+      "keywords": ["mcp", "reddit", "social"]
+    },
+    {
+      "name": "claudeai-mcp",
+      "source": "./plugins/claudeai-mcp",
+      "description": "claude.ai — conversations, projects, knowledge docs, artifacts.",
+      "version": "0.1.0",
+      "category": "mcp",
+      "keywords": ["mcp", "claude", "conversations"]
+    },
+    {
+      "name": "discord-mcp",
+      "source": "./plugins/discord-mcp",
+      "description": "Discord — search messages, read channels/threads/DMs, attachments.",
+      "version": "0.1.0",
+      "category": "mcp",
+      "keywords": ["mcp", "discord", "chat"]
+    },
+    {
+      "name": "media-mcp",
+      "source": "./plugins/media-mcp",
+      "description": "YouTube/media — transcription, YouTube search, comments, Watch Later.",
+      "version": "0.1.0",
+      "category": "mcp",
+      "keywords": ["mcp", "youtube", "transcription"]
     }
   ]
 }

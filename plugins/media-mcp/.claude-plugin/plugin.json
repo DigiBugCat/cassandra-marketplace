@@ -1,0 +1,14 @@
+{
+  "name": "media-mcp",
+  "description": "YouTube/media — transcription (GPU ASR + diarization), YouTube search, channel browsing, comments, Watch Later sync.",
+  "version": "0.1.0",
+  "author": {"name": "digibugcat"},
+  "license": "MIT",
+  "keywords": ["mcp", "youtube", "transcription", "media"],
+  "mcpServers": {
+    "yt-mcp": {
+      "type": "streamable-http",
+      "url": "https://youtube.cassandrasedge.com/mcp"
+    }
+  }
+}

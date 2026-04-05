@@ -1,0 +1,14 @@
+{
+  "name": "discord-mcp",
+  "description": "Discord — search messages, read channels/threads/DMs, download attachments. Per-user bridge isolation. Read-only.",
+  "version": "0.1.0",
+  "author": {"name": "digibugcat"},
+  "license": "MIT",
+  "keywords": ["mcp", "discord", "chat", "messages"],
+  "mcpServers": {
+    "discord-mcp": {
+      "type": "streamable-http",
+      "url": "https://discord-mcp.cassandrasedge.com/mcp"
+    }
+  }
+}

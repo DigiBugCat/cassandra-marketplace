@@ -1,0 +1,14 @@
+{
+  "name": "claudeai-mcp",
+  "description": "claude.ai — conversations, projects, knowledge docs, artifacts. Read + write via synced browser cookies.",
+  "version": "0.1.0",
+  "author": {"name": "digibugcat"},
+  "license": "MIT",
+  "keywords": ["mcp", "claude", "ai", "conversations"],
+  "mcpServers": {
+    "claudeai-mcp": {
+      "type": "streamable-http",
+      "url": "https://claudeai.cassandrasedge.com/mcp"
+    }
+  }
+}
