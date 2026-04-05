@@ -7,7 +7,7 @@
   "keywords": ["mcp", "twitter", "x", "news", "social"],
   "mcpServers": {
     "twitter-mcp": {
-      "type": "streamable-http",
+      "type": "http",
       "url": "https://twitter.cassandrasedge.com/mcp"
     }
   }

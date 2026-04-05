@@ -7,7 +7,7 @@
   "keywords": ["mcp", "finance", "stocks", "market-data"],
   "mcpServers": {
     "market-research": {
-      "type": "streamable-http",
+      "type": "http",
       "url": "https://market-research.cassandrasedge.com/mcp"
     }
   }

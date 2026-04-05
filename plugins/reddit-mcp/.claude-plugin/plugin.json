@@ -7,7 +7,7 @@
   "keywords": ["mcp", "reddit", "social", "research"],
   "mcpServers": {
     "reddit-mcp": {
-      "type": "streamable-http",
+      "type": "http",
       "url": "https://reddit.cassandrasedge.com/mcp"
     }
   }

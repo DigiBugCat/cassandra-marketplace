@@ -7,7 +7,7 @@
   "keywords": ["mcp", "claude", "ai", "conversations"],
   "mcpServers": {
     "claudeai-mcp": {
-      "type": "streamable-http",
+      "type": "http",
       "url": "https://claudeai.cassandrasedge.com/mcp"
     }
   }

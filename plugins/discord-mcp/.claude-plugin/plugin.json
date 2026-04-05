@@ -7,7 +7,7 @@
   "keywords": ["mcp", "discord", "chat", "messages"],
   "mcpServers": {
     "discord-mcp": {
-      "type": "streamable-http",
+      "type": "http",
       "url": "https://discord-mcp.cassandrasedge.com/mcp"
     }
   }

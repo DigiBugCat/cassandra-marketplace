@@ -9,7 +9,7 @@
   "keywords": ["mcp", "gateway", "execute"],
   "mcpServers": {
     "cassandra-gateway": {
-      "type": "streamable-http",
+      "type": "http",
       "url": "https://gateway.cassandrasedge.com/mcp"
     }
   }

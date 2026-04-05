@@ -7,7 +7,7 @@
   "keywords": ["mcp", "youtube", "transcription", "media"],
   "mcpServers": {
     "yt-mcp": {
-      "type": "streamable-http",
+      "type": "http",
       "url": "https://youtube.cassandrasedge.com/mcp"
     }
   }
