@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "Plugins from the Cassandra platform",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
       "name": "stopgate",
       "source": "./plugins/stopgate",
       "description": "Stop hook that blocks lazy stops and returns actionable directives. Uses a small LLM call (haiku) to classify whether the assistant actually finished its task.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "productivity",
       "keywords": ["hooks", "stop-gate", "agentic", "productivity"]
     }
