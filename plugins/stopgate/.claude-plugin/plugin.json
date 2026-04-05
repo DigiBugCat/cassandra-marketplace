@@ -1,6 +1,6 @@
 {
   "name": "stopgate",
-  "description": "Stop hook that blocks lazy stops and returns actionable directives. Uses a small LLM call (haiku) to classify whether the assistant actually finished its task.",
+  "description": "Stop hook that blocks lazy stops and returns actionable directives. Uses an Opus LLM call to classify whether the assistant actually finished its task.",
   "version": "0.2.0",
   "author": {
     "name": "digibugcat"

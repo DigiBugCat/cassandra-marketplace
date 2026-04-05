@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# stopgate — Stop hook that uses a small LLM call to decide if Claude
+# stopgate — Stop hook that uses an Opus LLM call to decide if Claude
 # should be allowed to stop or forced to continue working.
 #
 # Requires either:
@@ -118,7 +118,7 @@ log "verdict: $VERDICT"
 
 case "$VERDICT" in
   *BLOCK*|*block*)
-    # Extract haiku's reasoning (everything after BLOCK) as the block reason
+    # Extract the classifier's reasoning (everything after BLOCK) as the block reason
     REASON=$(echo "$VERDICT" | sed 's/^.*BLOCK[[:space:]]*//' | tr -d '\n' | head -c 500)
     if [ -z "$REASON" ]; then
       REASON="You stopped without finishing. Continue working on the task."
