@@ -79,6 +79,14 @@
       "version": "0.1.0",
       "category": "mcp",
       "keywords": ["mcp", "youtube", "transcription"]
+    },
+    {
+      "name": "gemini-mcp",
+      "source": "./plugins/gemini-mcp",
+      "description": "Gemini — grounded web search and Q&A with stateful conversations.",
+      "version": "0.1.0",
+      "category": "mcp",
+      "keywords": ["mcp", "gemini", "search", "research"]
     }
   ]
 }

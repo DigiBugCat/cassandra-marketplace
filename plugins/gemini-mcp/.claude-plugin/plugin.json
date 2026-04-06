@@ -1,0 +1,14 @@
+{
+  "name": "gemini-mcp",
+  "description": "Gemini — grounded web search and Q&A with stateful conversations. Auto-searches Google when needed.",
+  "version": "0.1.0",
+  "author": {"name": "digibugcat"},
+  "license": "MIT",
+  "keywords": ["mcp", "gemini", "search", "research", "grounding"],
+  "mcpServers": {
+    "gemini-mcp": {
+      "type": "http",
+      "url": "https://gemini.cassandrasedge.com/mcp"
+    }
+  }
+}
