@@ -8,7 +8,7 @@
   "mcpServers": {
     "claudeai-mcp": {
       "type": "http",
-      "url": "https://claudeai.cassandrasedge.com/mcp"
+      "url": "https://claude-ai.cassandrasedge.com/mcp"
     }
   }
 }

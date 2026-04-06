@@ -8,7 +8,7 @@
   "mcpServers": {
     "twitter-mcp": {
       "type": "http",
-      "url": "https://twitter.cassandrasedge.com/mcp"
+      "url": "https://twitter-mcp.cassandrasedge.com/mcp"
     }
   }
 }
