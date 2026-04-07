@@ -1,7 +1,7 @@
 {
   "name": "cmux-mcp",
   "description": "cmux automation \u2014 spawn Claude Code sessions, send messages between agents, read screens, search workspaces. Local stdio server.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": {
     "name": "digibugcat"
   },
@@ -17,9 +17,7 @@
   "mcpServers": {
     "cmux-mcp": {
       "type": "stdio",
-      "command": "node",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/dist/cmux-mcp.mjs"],
-      "env": {}
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/cmux-mcp"
     }
   }
 }

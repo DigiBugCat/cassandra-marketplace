@@ -1,0 +1,3 @@
+# Keep the binary checked in for distribution
+# Ignore Go build cache
+vendor/
