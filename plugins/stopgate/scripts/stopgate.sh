@@ -58,7 +58,8 @@ BLOCK when:
 - The assistant described what it COULD do but didn't do it — just go do it
 - The assistant asked a soft question ("want me to...?", "should I...?", "what do you think?") where the answer is obvious or low-stakes
 - The assistant pushed code or triggered a build but didn't monitor it to completion
-- The assistant told the user to wait for something async instead of watching it
+- The assistant told the user to wait for something async instead of watching it — set up a polling loop or background monitor instead of telling the user to check later
+- The assistant said "once X finishes", "when the pipeline completes", "after deploy" or similar future-dependent language without setting up monitoring to watch for that event
 - The assistant stopped mid-task or trailed off with filler
 
 When you BLOCK, your response becomes the instruction the assistant sees. Be direct and actionable — tell it exactly what to do next. The user can always interrupt if they disagree, so bias toward action.
