@@ -108,19 +108,6 @@ fi
 
 echo ""
 
-# Errors block, warnings don't
-has_errors=false
-for issue in "${issues[@]}"; do
-    if [[ "$issue" == ERROR:* ]]; then
-        has_errors=true
-        break
-    fi
-done
-
-if $has_errors; then
-    echo "Commit blocked — fix ERRORs above."
-    exit 1
-else
-    echo "Warnings only — commit proceeding."
-    exit 0
-fi
+# All issues block the commit
+echo "Commit blocked — fix issues above."
+exit 1
