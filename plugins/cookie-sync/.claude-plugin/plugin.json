@@ -1,7 +1,7 @@
 {
   "name": "cookie-sync",
   "description": "Auto-sync YouTube cookies from Firefox to the auth service on session start. Requires `cass` CLI (brew install digibugcat/tap/cass).",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "digibugcat"
   },

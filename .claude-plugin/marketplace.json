@@ -133,7 +133,7 @@
       "name": "cookie-sync",
       "source": "./plugins/cookie-sync",
       "description": "Auto-sync YouTube cookies from Firefox to auth service on session start.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "category": "productivity",
       "keywords": [
         "hooks",
