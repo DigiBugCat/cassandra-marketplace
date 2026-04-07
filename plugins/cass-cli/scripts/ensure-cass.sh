@@ -6,7 +6,7 @@
 set -euo pipefail
 
 CASS_REPO="Cassandras-Edge/cass"
-WANT_VERSION="0.2.0"
+WANT_VERSION="0.3.0"
 BIN_DIR="${CLAUDE_PLUGIN_DATA}/bin"
 VERSION_FILE="${CLAUDE_PLUGIN_DATA}/.cass-version"
 CASS_BIN="${BIN_DIR}/cass"
