@@ -1,7 +1,7 @@
 {
   "name": "cmux-mcp",
   "description": "cmux automation \u2014 spawn Claude Code sessions, send messages between agents, read screens, search workspaces. Local stdio server.",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "author": {
     "name": "digibugcat"
   },
