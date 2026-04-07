@@ -133,7 +133,7 @@
       "name": "cass-cli",
       "source": "./plugins/cass-cli",
       "description": "Cassandra platform CLI — device auth, cookie sync, MCP key management. Provides `cass` on PATH.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "productivity",
       "keywords": [
         "cli",
